@@ -19,4 +19,5 @@ def mulc(factor_a, factor_b=pi):
 
 def test_size():
     """Size Testing."""
-    assert inspectorgadget.getsize(("a", pi), blacklist=type(pi)) == 122
+    constant_c = 3.4
+    assert inspectorgadget.getsize(("a", constant_c), blacklist=type(constant_c)) == 106
