@@ -52,7 +52,7 @@ def get_signature(func, vars_=None, exclude=None):
     >>> get_signature(func, {'a': 4, 'b': 9})
     'func(4, b=9)'
 
-    This is useful in combination with :any:`vars()`.
+    This is useful in combination with `vars()`.
 
     >>> def func(a, b=2):
     ...     print(get_signature(func, vars()))
