@@ -117,9 +117,9 @@ def getsize(obj, blacklist=(type, ModuleType, FunctionType)):
     Sum Size of `obj` and Members.
 
     >>> import sys
-    >>> sys.getsizeof('a')
+    >>> sys.getsizeof('a')  # doctest: +SKIP
     50
-    >>> sys.getsizeof('b')
+    >>> sys.getsizeof('b')  # doctest: +SKIP
     50
     >>> sys.getsizeof(('a', 'b'))  # doctest: +SKIP
     56
