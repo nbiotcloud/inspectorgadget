@@ -24,7 +24,7 @@
 
 [tool.poetry]
 name = "inspectorgadget"
-version = "1.0.1"
+version = "1.0.2"
 description = "Inspector Gadget - Extended Python Inspection"
 readme = "README.md"
 license = "MIT"
