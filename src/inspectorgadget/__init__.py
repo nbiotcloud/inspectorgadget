@@ -77,7 +77,6 @@ def get_signature(func, vars_=None, exclude=None):  # noqa: C901, PLR0912
         >>> func('a', 'b1', 'c2', 'd3', 'e4')
         func('b1', 'c2', e='e4')
     """
-    # pylint: disable=too-many-nested-blocks,too-many-branches
     sig = _inspect.signature(func)
     name = func.__name__
     if vars_ is None:
